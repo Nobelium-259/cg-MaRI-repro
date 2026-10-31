@@ -1,0 +1,295 @@
+{
+  "license": "CC0-1.0",
+  "license_url": "https://docs.ambientcg.com/license/",
+  "task": "Flat color texture to material-preview retrieval, 12 assets, not an independent real-photo benchmark",
+  "assets": [
+    {
+      "id": "Fabric086",
+      "category": "Fabric",
+      "asset_page": "https://ambientcg.com/a/Fabric086",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Fabric086.jpg",
+        "download_sha256": "d6913ab136dc32a95825d012b99dddf7f7f78235a746819a219a0f54bf9b5429",
+        "saved_sha256": "75ddfb368afbb42cb96e0d594f39de55f5821506a2ebbe6717b69e4532e6dfd8",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Fabric086/Fabric086_SQ_Color.jpg?39045",
+        "download_sha256": "0027f3c952058c492a353ab424260805584b7753c9249a57d24c44ea2273ba2c",
+        "saved_sha256": "7b1f63d9eb4e37c6fb1e008dff15ebe7dfc067141068a96dac9512ad4f7fa842",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Fabric085",
+      "category": "Fabric",
+      "asset_page": "https://ambientcg.com/a/Fabric085",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Fabric085.jpg",
+        "download_sha256": "8d85f0e46293114658a60cdcd8e412b86e85aac3fc56e690a025b480c6e9110c",
+        "saved_sha256": "2e9abf3db09b2d369ae048f748f04e53b2221cbd6eed8b2b33d83be41536971d",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Fabric085/Fabric085_SQ_Color.jpg?56143",
+        "download_sha256": "947aafce65e34469ee69ae076dd122f8cfb1ed212c21e612f5a27f1f84aac57a",
+        "saved_sha256": "bb0139a9c5038370b15117ce10e01fa7ce0c4cff300b5fba8730c7b9ea951fcf",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Bricks113B",
+      "category": "Bricks",
+      "asset_page": "https://ambientcg.com/a/Bricks113B",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Bricks113B.jpg",
+        "download_sha256": "5b476a24aeb4be241bd608e739301a87a6bb4be4a4839e31347ef0267074727c",
+        "saved_sha256": "aa8e2c91c6f574f615d9071e0df891cb3dd36f340d3eaaf03fa56f259e4c6f19",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Bricks113B/Bricks113B_SQ_Color.jpg?10131",
+        "download_sha256": "498c1afbfcc03cf14777e7a9ea1aa57116828fc46591d72352cad34a7de07d9c",
+        "saved_sha256": "4e2a54707cc28d8a3cb33dd281d32ef1facb66376c3269a3e253e0b0f624e4a3",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Bricks113A",
+      "category": "Bricks",
+      "asset_page": "https://ambientcg.com/a/Bricks113A",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Bricks113A.jpg",
+        "download_sha256": "858092a2a7fbf06e73d10dff075f7c103aefd6cd26db0c74f5c6a338fab32907",
+        "saved_sha256": "b43fdeba6d4c2772a158008c745e9481c7c623778b44090c3875c0369b978d33",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Bricks113A/Bricks113A_SQ_Color.jpg?49555",
+        "download_sha256": "56047916663759402e8081c9d2dd743c56be2b95339e562c7adbe8ebe9e62b27",
+        "saved_sha256": "e075fa30de46e80aa7a92d6124f8c3793e7cbd46fa9a3b19145dae18208c9e8b",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Clay009",
+      "category": "Clay",
+      "asset_page": "https://ambientcg.com/a/Clay009",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Clay009.jpg",
+        "download_sha256": "662b78a2b83386296480c0aba1dd48f1fd78d3872ab72bea81212f466acbee30",
+        "saved_sha256": "66e1028d8f2e2b8cb60bac8967eac645bb69e9f7fbb3afbad523d5818b1058a2",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Clay009/Clay009_SQ_Color.jpg?20017",
+        "download_sha256": "4c734677fe1a01c348b5ec95e92321c8f30c7e297e9b89098dac0a8107af5635",
+        "saved_sha256": "dae9e9d116aa686f1e2740d64af6b7b680f997aa695df9ab28aa2e76c4b67ea5",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Clay008",
+      "category": "Clay",
+      "asset_page": "https://ambientcg.com/a/Clay008",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Clay008.jpg",
+        "download_sha256": "8c96458efd7fc27522bd55ea2482a7347b371cfc9cf22326c01de77351d84bba",
+        "saved_sha256": "3a5b4ccc66d8bd278780fd0790910b08b423816154b35d5ed9b48e7cc76adafa",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Clay008/Clay008_SQ_Color.jpg?66541",
+        "download_sha256": "b370d5045d0e897a87892a8a5ddec41a80c775e7645161cb63d528332d237063",
+        "saved_sha256": "b44c8e561c5eea1c18a652dac953fab3896c931642555499dedf1942ad38f2ae",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Wood096",
+      "category": "Wood",
+      "asset_page": "https://ambientcg.com/a/Wood096",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Wood096.jpg",
+        "download_sha256": "f83aca048d0d1973940581dde979a03406ed6bab23d3d59c7435515cb7f1bbb2",
+        "saved_sha256": "7adb3a418d6de8c1860439cf431fe0b5175a37b7979462bce07ba6e1a19fbb1b",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Wood096/Wood096_SQ_Color.jpg?72261",
+        "download_sha256": "f39a6113377b9da52381ed86afd88d0a1e113b20dc6f86c7c6550d664d6a77a0",
+        "saved_sha256": "d9d6677b5d66bf488e422fa0254ed1193b5de821226af0ef640e6a45b789f635",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Wood095",
+      "category": "Wood",
+      "asset_page": "https://ambientcg.com/a/Wood095",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Wood095.jpg",
+        "download_sha256": "ae68775a06db96be8560d9df3398144c174eb37dd3c46a3a8e89a4e494a25431",
+        "saved_sha256": "eab776c1e0afacb322df68d3ec226a87043c1d5ec67c75a631ec91ba616c46dd",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Wood095/Wood095_SQ_Color.jpg?47629",
+        "download_sha256": "38072c268d5c54f28f5cb857cebfe2005f48ef636dd5e3cf8bc6cf7bfe3fdd0b",
+        "saved_sha256": "e6b6444eec4ace8e4f334b1170df4aa51b14d0cce515ed7b8548610ebfa83cc8",
+        "size": [
+          2048,
+          1024
+        ]
+      }
+    },
+    {
+      "id": "Ground112",
+      "category": "Ground",
+      "asset_page": "https://ambientcg.com/a/Ground112",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Ground112.jpg",
+        "download_sha256": "dab6f8360523040f46a6235e5682442531a0e63d614bca4dda9b4316f951fbe9",
+        "saved_sha256": "48b54d7c83a00ad1d181c1156e7813ef3c9f9f07709c4a003b1ce891226b9df1",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Ground112/Ground112_SQ_Color.jpg?77222",
+        "download_sha256": "ee60cfd3376b44165f165b1005fbd87fda2e43beeb5a75480d08165a5d747382",
+        "saved_sha256": "e5df6553001bba35430af488e7777809646ed1fb1d920699d9bdba4929111326",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Ground111",
+      "category": "Ground",
+      "asset_page": "https://ambientcg.com/a/Ground111",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Ground111.jpg",
+        "download_sha256": "b6c5741e01c2e0f8bbd133ab432a642544a5b5097a202821cfbba9ab1cbbf175",
+        "saved_sha256": "06c4e3debd8af096c3c51f7d853c10dc581632ebb3042acaa47c31984345ff9b",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Ground111/Ground111_SQ_Color.jpg?57411",
+        "download_sha256": "dbb9cc43bd92399995625de41c3d12e2c5255e2a0b9664922f88371c97cfc297",
+        "saved_sha256": "b14cb2eea7f2d699c3437df17ba6b6ac6c2dedd331c13094bae5b2499048d630",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Tiles144",
+      "category": "Tiles",
+      "asset_page": "https://ambientcg.com/a/Tiles144",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Tiles144.jpg",
+        "download_sha256": "2aa371b150bbdc30445dea52024998a61b158872f320cdb0a657ead2cb76ce27",
+        "saved_sha256": "70b22ca25302a07773c33664d6e48391eaf71f5b5beadb4e765000242cd33eb3",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Tiles144/Tiles144_SQ_Color.jpg?64187",
+        "download_sha256": "c2c4c56ed66b583553fd2fa6e551e5c08091e81b8bdafa5df5e31019157a3a4c",
+        "saved_sha256": "f7c571a44e11a204f0b244d8d3aa791b743275e7d45f26a38d8810d51f104e1d",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    },
+    {
+      "id": "Tiles143",
+      "category": "Tiles",
+      "asset_page": "https://ambientcg.com/a/Tiles143",
+      "license": "CC0 1.0",
+      "gallery": {
+        "url": "https://acg-media.struffelproductions.com/file/ambientCG-Web/media/thumbnail/512-JPG-FFFFFF/Tiles143.jpg",
+        "download_sha256": "cbdc7d012b31e5c5af2ce294c6cf03200531769f274cbf1d8c99fb8e15f4cadf",
+        "saved_sha256": "205332c5416b184878fbf5241f01fe5bd9c419b9a16586ae645101970fe9bb38",
+        "size": [
+          512,
+          512
+        ]
+      },
+      "query": {
+        "url": "https://f003.backblazeb2.com/file/ambientCG-Web/media/surface-preview/Tiles143/Tiles143_SQ_Color.jpg?14382",
+        "download_sha256": "18605bf3c98e4e60ac6617b4175be04b21f71aa640a340abf919823fc40c37d7",
+        "saved_sha256": "2df43d37a19ba84b9e3e498772c13f1aa091c893859c1b8f12d4d1b4049a6171",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    }
+  ]
+}
