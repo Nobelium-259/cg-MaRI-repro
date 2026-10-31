@@ -1,6 +1,5 @@
 {
-  "source_snapshot_commit": "5d4d7cbc5ba24511204352da87b2a8f2258799f2",
-  "source_worktree_clean": true,
+  "source_snapshot_commit": "7387adcec150c00a3720c64660f7f8d51967be6a",
   "scope": "Code, setup, data acquisition tools and CC0 source metadata only; no reports, PPT, media, logs, weights or course Git ancestry",
   "files": {
     ".gitattributes": {
@@ -20,12 +19,16 @@
       "bytes": 94
     },
     "launch_demo.bat": {
+      "sha256": "155bafed57cdda75e605f837e70d07344f0ceb1c36f837254dc0c372817cc38c",
+      "bytes": 231
+    },
+    "launch_single_demo.bat": {
       "sha256": "e98298d015f4f830a5aed7078b284a4a49ef1fc944845a88636ee8b09ba9c9ef",
       "bytes": 220
     },
     "README.md": {
-      "sha256": "28b205a8e306a73fe80001607899354660502e64b422c68800ea6c83ac778359",
-      "bytes": 7522
+      "sha256": "9579a7a6b931f769489546c614d5539144d64036300c343cb14531d783e39056",
+      "bytes": 9853
     },
     "setup_windows.bat": {
       "sha256": "100efcb9630fd3645dfcdcac9905961037009d8034b1a0394c8f2ed63e8d5863",
@@ -35,9 +38,25 @@
       "sha256": "fe88a9be7d53c911a4ef93937ffe91e02e90570b5e2afcf7cf4fef9de1da171c",
       "bytes": 3272
     },
+    "source/course_demo/compare_models.py": {
+      "sha256": "393cfa8232bcdc9e78ae467c75c02dabccbf0ccf51712c1a4a35a2d1d76f2a5c",
+      "bytes": 11905
+    },
+    "source/course_demo/comparison.py": {
+      "sha256": "b6f0f249b672c75d64f2fc846fa6604284883038a98b6a8a1f00ae1498224d6a",
+      "bytes": 8065
+    },
+    "source/course_demo/comparison_app.py": {
+      "sha256": "f4b1c74515bf6a639c29d7ba0c22767bdc851ae1643248d45fd24b7f69c6ce47",
+      "bytes": 5548
+    },
+    "source/course_demo/comparison_recipe.json": {
+      "sha256": "af0393fe1d5ee936e81530ba9e46cb5aecea81563ea685aadbb6bead63551fe7",
+      "bytes": 538937
+    },
     "source/course_demo/core.py": {
-      "sha256": "afe792a3ad554f6a4eb901bb3d43028ca597b8b27539e44e6b3e2ef8e5fd5d91",
-      "bytes": 13102
+      "sha256": "0d45d426e09402c0ff50062ccfc7710f8e1a2c26b430aa08b1e3d7362809c1f0",
+      "bytes": 13573
     },
     "source/course_demo/download_weights.py": {
       "sha256": "835fe808035ada561a57f6a04228d770b87a63eb35791fe73d3befabfcd5cd42",
@@ -67,9 +86,17 @@
       "sha256": "56afff2daf1c86adf722bf1d0fb19a0b7d586cc1632b3f8e9dab489242e39c3d",
       "bytes": 2276
     },
+    "source/course_demo/test_comparison.py": {
+      "sha256": "870333fac1c21ed9b9402777ce2ee4a30d836c4d9bd4fefedd84ac1ff0de8ee4",
+      "bytes": 5132
+    },
+    "source/course_demo/test_comparison_app.py": {
+      "sha256": "17359184b515c7ac4fb76fe537922a8b110e1efb0e77cf4174fdff42e309641c",
+      "bytes": 1613
+    },
     "source/course_demo/test_core.py": {
-      "sha256": "e4eca277daddb2d89279901bd79baadcd137492e61b89e442e908ab35f28ade7",
-      "bytes": 5829
+      "sha256": "d512af07ea64f65963059a795f4ee44f17ed076e4b9013110107dbb9e935543f",
+      "bytes": 6265
     },
     "source/dinov2/CODE_OF_CONDUCT.md": {
       "sha256": "b161b3e2ec4712ebf69efc38ef796d2c701a323aac51cf11759d38e9c56c39bd",
@@ -872,16 +899,20 @@
       "bytes": 3586
     },
     "THIRD_PARTY.md": {
-      "sha256": "cf4a2860bf789d6f7a6e865fcb04b3ce0d29ba0db0a324a42039a4031e1e43cd",
-      "bytes": 1343
+      "sha256": "3f6385f4268f7a3bcf24977e35b138bd9834787a06f22a84586b5e3ce36a9137",
+      "bytes": 2099
+    },
+    "tools/prepare_comparison_data.py": {
+      "sha256": "abacd0750f0bc5087b72936ad674d1b803f7a83daf2369967792d7e60632f9e8",
+      "bytes": 10246
     },
     "tools/prepare_demo_data.py": {
       "sha256": "60060c83fcd0578448a5f44e424e4a26efa3b2d6a6cebf78209b61cec5f54288",
       "bytes": 4497
     },
     ".gitignore": {
-      "sha256": "f57f4cf908f4d1df998a20be4d6330e01922a23f78d567d1ab7f0bcd80d0f9a5",
-      "bytes": 765
+      "sha256": "10c167b2f129102d477db09fb51b87838922f3cb24d62b7fb1d9a2a9422aebcb",
+      "bytes": 793
     }
   }
 }

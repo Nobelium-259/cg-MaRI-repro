@@ -93,6 +93,16 @@ def metrics(predictions, queries):
             'hit_at_5': float(np.mean(hit5)), 'mAP': float(np.mean(average_precision))}
 
 
+def validate_mask_geometry(image_size, mask_size):
+    # Official MaRI pairs use a higher-resolution mask in the same coordinates.
+    # Independent Resize/CenterCrop (as upstream) preserves matching aspect ratios.
+    # Permit at most 0.1% relative aspect drift from source export rounding.
+    image_ratio = image_size[0] / image_size[1]
+    mask_ratio = mask_size[0] / mask_size[1]
+    if abs(image_ratio - mask_ratio) > 0.001 * max(image_ratio, mask_ratio):
+        raise ValueError(f'mask/image aspect ratios differ: {mask_size} vs {image_size}')
+
+
 def load_image(path, mode):
     try:
         with Image.open(path) as image:
@@ -170,8 +180,7 @@ class DinoEncoder:
         tensor = self.transform(image).unsqueeze(0)
         if mask:
             mask_image = load_image(mask, 'L')
-            if mask_image.size != image.size:
-                raise ValueError(f'mask/image dimensions differ: {mask_image.size} vs {image.size}')
+            validate_mask_geometry(image.size, mask_image.size)
             tensor = tensor * self.mask_transform(mask_image).unsqueeze(0)
         model = self.material if branch == 'material' else self.image
         with self.torch.inference_mode():

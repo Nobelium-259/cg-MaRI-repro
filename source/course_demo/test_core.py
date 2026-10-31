@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import numpy as np
-from core import Descriptor, make_encoder, metrics, rank, read_manifest
+from core import Descriptor, make_encoder, metrics, rank, read_manifest, validate_mask_geometry
 from runtime import RetrievalRuntime
 
 
@@ -83,6 +83,14 @@ class Tests(unittest.TestCase):
             (root / 'manifest.json').write_text(json.dumps(content), encoding='utf8')
             with self.assertRaisesRegex(FileNotFoundError, 'missing mask'):
                 read_manifest(root / 'manifest.json')
+
+    def test_mask_resolution_coordinates(self):
+        validate_mask_geometry((300, 300), (2310, 2310))
+        validate_mask_geometry((300, 200), (600, 400))
+        validate_mask_geometry((720, 1280), (1299, 2310))
+        validate_mask_geometry((4167, 2541), (2325, 1417))
+        with self.assertRaisesRegex(ValueError, 'aspect ratios differ'):
+            validate_mask_geometry((300, 200), (2310, 2310))
 
     def test_bad_image(self):
         with tempfile.TemporaryDirectory() as folder:

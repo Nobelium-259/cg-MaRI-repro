@@ -4,15 +4,18 @@
 
 **仓库只发布代码、运行说明和测试素材的来源元数据。** 离线回放、原始日志、图片数据、模型权重和虚拟环境均保留在本地，不随本仓库上传。测试素材由下载工具按需准备。
 
+
+
+
 ## 已完成的复现范围
 
 - 官方 MaRI 权重校验、双编码器严格加载、CPU／CUDA推理入口与Top-k检索。
 - 同规格 DINOv2 基线与颜色／梯度直方图教学基线；没有模型失败后的静默替换。
 - Streamlit 内置查询和图片上传，模型切换与候选缓存管理。
-- 12项边界测试；固定输入条件、重复计时和显存分配记录工具。
+- 13项核心边界测试；固定输入条件、重复计时和显存分配记录工具。
 - 12项公开CC0材质的平面纹理到材质球检索，按同一资产ID确定相关项。
 
-没有完成原论文全量评测或两阶段训练。补充素材不是独立真实照片；训练数据重叠未核实，不能称为论文的Trained或Unseen集合。余弦分数不是材质成分概率。
+没有完成原论文全量评测或两阶段训练。早先12项素材是平面纹理；新版另提供96组官方真实照片配对、295候选的冻结诊断配方。官方配对可能参与权重训练，不能称为独立留出测试，也不能称为论文的Trained或Unseen集合。余弦分数不是材质成分概率。
 
 ## 目录
 
@@ -121,3 +124,32 @@ CPU运行将`--device cuda`改为`--device cpu`。DINOv2基线首次会下载Met
 ## 来源与许可
 
 MaRI和DINOv2上游许可证随代码保留，详见[THIRD_PARTY.md](THIRD_PARTY.md)。本仓库未为课程适配代码另行新增开源许可证，不将上游代码或模型权重统一重授权。报告与PPT仍仅保留在本地。
+
+## 新版 MaRI 与 DINOv2 同屏对照
+
+`launch_demo.bat` 现在打开新版比较界面：默认回放同一查询、同一候选库的两个模型结果，支持按 MaRI 单独命中、DINOv2 单独命中和共同失败筛选；全量统计始终保留。原单模型界面改由 `launch_single_demo.bat` 打开。
+
+代码仓库不附带照片、结果或特征库。请先准备权重，按冻结配方获取子集，再依次计算三种方法并汇总：
+
+```powershell
+.venv\Scripts\python.exe tools\prepare_comparison_data.py
+.venv\Scripts\python.exe source\course_demo\compare_models.py --mode baseline --run-id my_comparison
+.venv\Scripts\python.exe source\course_demo\compare_models.py --mode dinov2 --run-id my_comparison --device cpu --threads 2
+.venv\Scripts\python.exe source\course_demo\compare_models.py --mode mari --run-id my_comparison --device cpu --threads 2
+.venv\Scripts\python.exe source\course_demo\compare_models.py --run-id my_comparison --summarize
+.\launch_demo.bat
+```
+
+数据获取仅分段读取作者约21GB的Real-world2.zip，不下载整包；解码后子集约406MiB。配方固定在 `source/course_demo/comparison_recipe.json`，包含来源提交、ZIP条目偏移和CRC、素材ID及公开预览URL。96组真实配对按固定哈希规则选取，199项ambientCG预览是干扰项；一个持续404的资产已在推理前冻结剔除，没有替换。照片与掩码尺寸可不同，允许最多0.1%的比例取整偏差。
+
+三个协议分别为真实照片加掩码、同批照片不加掩码，以及199项基础颜色贴图到材质球。后者不是物体照片。官方配对与权重训练数据的交叉未知；相关性来自原配对或资产ID，未完整重标所有外观近似材质。不得把结果写成独立泛化或完整论文指标。
+
+评测拒绝覆盖已有模式结果，另存完整排名及可复用特征库。新版实时上传使用CPU，两模型依次加载并释放，不启动CUDA。照片上传没有人工标签，仅作定性检索。旧入口保留CUDA选项；本机出现重启后，本轮未继续CUDA负载测试。
+
+新增校验（需完成上述数据及结果准备）：
+
+```powershell
+.venv\Scripts\python.exe source\course_demo\test_comparison.py
+```
+
+该检查重算全部排名和指标，核对成功/失败分组，并验证缓存损坏及缺权重时明确失败。
