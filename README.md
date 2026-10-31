@@ -2,7 +2,7 @@
 
 本仓库整理 CVPR 2025 论文 **MaRI: Material Retrieval Integration across Domains** 的推理适配、检索界面和补充实验代码。它是课程复现项目，作者官方实现见 [MaRI 官方仓库](https://github.com/jianhuiwemi/Material-Retrieval-Integration-across-Domains)，论文见 [arXiv](https://arxiv.org/abs/2503.08111)。
 
-**仓库只发布代码、运行说明和测试素材的来源元数据。** 课程报告、PPT、讲稿、论文PDF、离线回放、原始日志、图片数据、模型权重和虚拟环境均保留在本地，不随本仓库上传。测试素材由下载工具按需准备。
+**仓库只发布代码、运行说明和测试素材的来源元数据。** 离线回放、原始日志、图片数据、模型权重和虚拟环境均保留在本地，不随本仓库上传。测试素材由下载工具按需准备。
 
 ## 已完成的复现范围
 
