@@ -50,3 +50,6 @@ credentials.json
 /提交核对表.md
 
 /data/comparison_20261101/
+
+# Explicitly authorized self-contained replay.
+!/demo/DEMO-MaRI.html

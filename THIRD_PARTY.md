@@ -16,7 +16,7 @@
 
 ## 公共演示素材
 
-ambientCG素材及材质预览由其官方声明采用CC0 1.0：https://docs.ambientcg.com/license/ 。本仓库只发布来源元数据和下载工具，不包含图片文件。资产ID及校验值见data/public_demo_sources.json。
+ambientCG素材及材质预览由其官方声明采用CC0 1.0：https://docs.ambientcg.com/license/ 。本仓库发布来源元数据和下载工具；demo/DEMO-MaRI.html另含已授权发布的演示缩略图，不包含独立原图文件。资产ID及校验值见data/public_demo_sources.json。
 
 ## 本项目适配代码
 
@@ -27,6 +27,6 @@ ambientCG素材及材质预览由其官方声明采用CC0 1.0：https://docs.amb
 
 冻结配方来自作者公开的 Hugging Face 数据集：
 https://huggingface.co/datasets/jianhuiwemi/MaRI ，提交 d9018eca4a7833c1e3c5e1867b7418aceff3faec。
-只按HTTP Range读取Real-world2.zip的96组照片、掩码及外观迁移材质球。单条目按ZIP大小/CRC及SHA256校验，没有计算整个21GB归档的SHA256。原图、掩码、生成球、结果和特征库保留本地；代码发布仅包含取样及获取配方。使用原始数据时应遵循作者数据源的条款。
+只按HTTP Range读取Real-world2.zip的96组照片、掩码及外观迁移材质球。单条目按ZIP大小/CRC及SHA256校验，没有计算整个21GB归档的SHA256。原图、掩码、生成球、完整结果和特征库保留本地；除取样及获取配方外，demo/DEMO-MaRI.html按用户要求包含用于回放的缩略图及前五排名。使用原始数据时应遵循作者数据源的条款。
 
 新增199项ambientCG预览继续使用官方CC0资源；配方包含素材ID与来源URL。一个失效预览在推理前剔除且不替换。官方配对训练重叠未知，不能据此宣称独立泛化。
